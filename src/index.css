@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: sans-serif, Arial, Helvetica;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  user-select: none;
+}
+@media (max-width: 768px) {
+  body {
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,48 @@
+.global-css {
+  max-width: 1400px;
+  margin-left: 230px;
+  background: var(--background); /* Use global background variable */
+  margin-right: auto;
+  padding: 2rem 0;
+}
+
+.global-css h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--card-text);
+  transition: color 0.2s;
+}
+
+.product-grid {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+}
+@media (max-width: 480px) {
+  .global-css {
+    margin-left: 0;
+  }
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .global-css {
+    margin-left: 0;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 1025px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

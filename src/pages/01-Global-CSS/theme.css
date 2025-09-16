@@ -1,0 +1,42 @@
+/* Variáveis de Tema - Modo Claro */
+:root {
+  --background: #F8F8F8; /* Fundo geral claro */
+  --text: #333333; /* Cor principal do texto */
+  --secondary-text: #666666; /* Cor secundária do texto e elementos sutis */
+
+  --navbar-bg: #FFFFFF; /* Fundo da barra de navegação */
+  --navbar-text: var(--text);
+
+  --card-bg: #FFFFFF; /* Fundo dos cards */
+  --card-text: var(--text);
+  --card-shadow: 0 2px 8px rgba(0,0,0,0.08); /* Sombra sutil para cards */
+  --card-border: #E0E0E0; /* Borda clara para cards */
+
+  --card-tag-novo: #28A745; /* Verde para tag "Novo" */
+  --card-tag-promo: #FFC107; /* Amarelo/Laranja para tag "Promo" */
+
+  --primary-color: #007BFF; /* Cor de destaque principal (azul) */
+  --card-btn-bg: var(--primary-color); /* Fundo do botão */
+  --card-btn-text: #FFFFFF; /* Texto do botão */
+  --card-btn-outline: var(--primary-color); /* Borda do botão de contorno */
+}
+
+/* Variáveis de Tema - Modo Escuro */
+body.dark {
+  --background: #2C3E50; /* Fundo geral escuro (azul petróleo) */
+  --text: #ECF0F1; /* Cor principal do texto claro */
+  --secondary-text: #BDC3C7; /* Cor secundária do texto e elementos sutis claros */
+
+  --navbar-bg: #34495E; /* Fundo da barra de navegação escura */
+  --navbar-text: var(--text);
+
+  --card-bg: #34495E; /* Fundo dos cards escuros */
+  --card-text: var(--text);
+  --card-shadow: 0 4px 16px rgba(0,0,0,0.3); /* Sombra mais pronunciada para cards */
+  --card-border: #4A627A; /* Borda escura para cards */
+
+  --card-tag-novo: #2ECC71; /* Verde para tag "Novo" (mais claro) */
+  --card-tag-promo: #F1C40F; /* Amarelo para tag "Promo" (mais claro) */
+
+  --primary-color: #3498DB; /* Cor de destaque principal (azul mais claro) */
+}
