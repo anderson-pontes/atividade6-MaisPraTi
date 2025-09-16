@@ -29,7 +29,7 @@ Este projeto demonstra a mesma interface de uma mini loja, implementada com 4 ab
 
 1.  **Clone o repositório:**
     ```sh
-    git clone https://github.com/seu-usuario/Atividade6-MaisPraTi-main.git
+    git clone https://github.com/anderson-pontes/atividade6-MaisPraTi.git
     ```
 
 2.  **Navegue até a pasta do projeto:**
